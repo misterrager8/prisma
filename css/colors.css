@@ -1,0 +1,68 @@
+:root,
+html[data-theme="light"] {
+  --black: #252525;
+  --white: #cfc9c9;
+  --red: #fd4747;
+  --orange: #e08422;
+  --yellow: #fad816;
+  --green: #3c823c;
+  --blue: #3f3fd7;
+  --purple: #452060;
+  --pink: #b168b1;
+
+  --primary-bg: var(--white);
+  --primary-txt: var(--black);
+
+  --btn-color: var(--black);
+  --btn-hover-txt: var(--white);
+}
+
+html[data-theme="dark"] {
+  --primary-bg: var(--black);
+  --primary-txt: var(--white);
+
+  --btn-color: var(--white);
+  --btn-hover-txt: var(--black);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-red {
+  background-color: var(--red);
+  color: var(--black);
+}
+
+.bg-orange {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+.bg-green {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-pink {
+  background-color: var(--pink);
+  color: var(--black);
+}

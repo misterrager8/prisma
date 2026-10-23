@@ -1,0 +1,68 @@
+.font-sm,
+.font-sm * {
+  font-size: 0.75rem;
+}
+
+.font-lg,
+.font-lg * {
+  font-size: 1.25rem;
+}
+
+.font-xl,
+.font-xl * {
+  font-size: 1.75rem;
+}
+
+.font-black {
+  color: var(--black);
+}
+
+.font-white {
+  color: var(--white);
+}
+
+.font-red {
+  color: var(--red);
+}
+
+.font-orange {
+  color: var(--orange);
+}
+
+.font-yellow {
+  color: var(--yellow);
+}
+
+.font-green {
+  color: var(--green);
+}
+
+.font-blue {
+  color: var(--blue);
+}
+
+.font-purple {
+  color: var(--purple);
+}
+
+.font-pink {
+  color: var(--pink);
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.capitalize,
+.capitalize * {
+  text-transform: capitalize;
+}
+
+.special,
+.special * {
+  letter-spacing: 2px;
+}

@@ -1,0 +1,23 @@
+.border {
+  border: 0.5px solid;
+}
+
+.border-top {
+  border-top: 0.5px solid;
+}
+
+.border-bottom {
+  border-bottom: 0.5px solid;
+}
+
+.border-left {
+  border-left: 0.5px solid;
+}
+
+.border-right {
+  border-right: 0.5px solid;
+}
+
+.rounded {
+  border-radius: 5px;
+}

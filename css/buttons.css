@@ -1,0 +1,154 @@
+.btn {
+  background-color: transparent;
+  color: var(--btn-color);
+  border: 0.5px solid var(--btn-color);
+  border-radius: 5px;
+  padding: 4px 20px;
+  letter-spacing: 2px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn.active {
+  background-color: var(--btn-color);
+  color: var(--btn-hover-txt);
+}
+
+/* red */
+
+.btn.red {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.btn.red:hover,
+.btn.red.active {
+  background-color: var(--red);
+  color: var(--black);
+}
+
+/* orange */
+
+.btn.orange {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.btn.orange:hover,
+.btn.orange.active {
+  background-color: var(--orange);
+  color: var(--black);
+}
+
+/* yellow */
+
+.btn.yellow {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.btn.yellow:hover,
+.btn.yellow.active {
+  background-color: var(--yellow);
+  color: var(--black);
+}
+
+/* green */
+
+.btn.green {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.btn.green:hover,
+.btn.green.active {
+  background-color: var(--green);
+  color: var(--white);
+}
+
+/* blue */
+
+.btn.blue {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.btn.blue:hover,
+.btn.blue.active {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* purple */
+
+.btn.purple {
+  border-color: var(--purple);
+  color: var(--purple);
+}
+
+.btn.purple:hover,
+.btn.purple.active {
+  background-color: var(--purple);
+  color: var(--white);
+}
+
+/* pink */
+
+.btn.pink {
+  border-color: var(--pink);
+  color: var(--pink);
+}
+
+.btn.pink:hover,
+.btn.pink.active {
+  background-color: var(--pink);
+  color: var(--black);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-item {
+  cursor: pointer;
+  padding: 5px 15px;
+  letter-spacing: 1.5px;
+}
+
+.dropdown-item.active,
+.dropdown-item:hover {
+  background-color: var(--btn-color);
+  color: var(--btn-hover-txt);
+  border-radius: 3px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  width: 200px;
+  border: 0.5px solid var(--primary-txt);
+  max-height: 100px;
+  overflow-y: auto;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 1px;
+  z-index: 99;
+  background-color: var(--primary-bg);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* .dropdown :not(.dropdown) */
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--btn-color);
+  cursor: pointer;
+}

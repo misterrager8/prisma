@@ -1,0 +1,13 @@
+.card {
+  padding: 5px 30px;
+  /* margin-bottom: 2px; */
+}
+
+.card:hover,
+.card.active {
+  background-color: var(--btn-color);
+  color: var(--btn-hover-txt);
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
