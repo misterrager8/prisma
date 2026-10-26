@@ -2,7 +2,8 @@
   background-color: transparent;
   color: var(--primary-txt);
   border: 0.5px solid var(--primary-txt);
-  padding: 4px 10px;
+  padding-inline: 12px;
+  height: 30px;
   border-radius: 5px;
   outline: none;
 }
@@ -11,5 +12,4 @@
   letter-spacing: 2px;
   opacity: 50%;
   color: var(--primary-txt);
-  /* font-size: 0.9rem; */
 }

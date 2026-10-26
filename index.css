@@ -9,10 +9,14 @@
 
 * {
   font-family: "Arial";
+  box-sizing: border-box;
   font-size: 1rem;
 }
 
 body {
   background-color: var(--primary-bg);
   color: var(--primary-txt);
+  margin: 0;
+  /* border: 0.5px solid; */
+  height: 100vh;
 }

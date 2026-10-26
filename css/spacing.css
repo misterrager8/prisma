@@ -28,7 +28,51 @@
   margin: var(--space-5);
 }
 
+.gap-x-1 > * {
+  margin-inline: var(--space-1);
+}
+
+.gap-x-2 > * {
+  margin-inline: var(--space-2);
+}
+
+.gap-x-3 > * {
+  margin-inline: var(--space-3);
+}
+
+.gap-x-4 > * {
+  margin-inline: var(--space-4);
+}
+
+.gap-x-5 > * {
+  margin-inline: var(--space-5);
+}
+
+.gap-y-1 > * {
+  margin-block: var(--space-1);
+}
+
+.gap-y-2 > * {
+  margin-block: var(--space-2);
+}
+
+.gap-y-3 > * {
+  margin-block: var(--space-3);
+}
+
+.gap-y-4 > * {
+  margin-block: var(--space-4);
+}
+
+.gap-y-5 > * {
+  margin-block: var(--space-5);
+}
+
 /* margins */
+
+.m-0 {
+  margin: 0;
+}
 
 .m-1 {
   margin: var(--space-1);
@@ -171,6 +215,10 @@
 }
 
 /* padding */
+
+.p-0 {
+  padding: 0;
+}
 
 .p-1 {
   padding: var(--space-1);

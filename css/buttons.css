@@ -2,15 +2,21 @@
   background-color: transparent;
   color: var(--btn-color);
   border: 0.5px solid var(--btn-color);
-  border-radius: 5px;
-  padding: 4px 20px;
+  padding-inline: 12px;
+  height: 30px;
   letter-spacing: 2px;
   transition: background-color 0.25s;
   cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn > {
+  margin-block: auto;
 }
 
 .btn:hover,
-.btn.active {
+.btn.active,
+.active .btn {
   background-color: var(--btn-color);
   color: var(--btn-hover-txt);
 }
@@ -108,32 +114,35 @@
 
 .dropdown {
   position: relative;
+  display: inline-block;
 }
 
 .dropdown-item {
   cursor: pointer;
-  padding: 5px 15px;
+  padding-inline: 12px;
   letter-spacing: 1.5px;
+  display: block;
+  line-height: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .dropdown-item.active,
 .dropdown-item:hover {
   background-color: var(--btn-color);
   color: var(--btn-hover-txt);
-  border-radius: 3px;
 }
 
 .dropdown-menu {
   position: absolute;
   display: none;
-  width: 200px;
-  border: 0.5px solid var(--primary-txt);
-  max-height: 100px;
+  max-height: 400px;
+  max-width: 300px;
   overflow-y: auto;
-  border-radius: 5px;
-  padding: 4px;
-  margin: 1px;
   z-index: 99;
+  border: 0.5px solid;
+  border-radius: 5px;
   background-color: var(--primary-bg);
 }
 
@@ -141,14 +150,31 @@
   display: block;
 }
 
-/* .dropdown :not(.dropdown) */
-
 ::-webkit-scrollbar {
   background-color: transparent;
   width: 2px;
   height: 2px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: var(--btn-color);
   cursor: pointer;
+}
+
+.dropdown-toggle::after {
+  content: "\25BE";
+  font-size: 0.75rem;
+  margin-left: 9px;
+  vertical-align: 0.15em;
+}
+
+.badge {
+  padding: 3px 15px;
+  border: 0.5px solid var(--btn-color);
+  color: var(--btn-color);
+  background-color: transparent;
+  border-radius: 20px;
+  font-size: small;
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
