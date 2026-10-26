@@ -5,7 +5,7 @@
   padding-inline: 12px;
   height: 30px;
   letter-spacing: 2px;
-  transition: background-color 0.25s;
+  transition: background-color 0.5s;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -126,6 +126,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  transition: background-color 0.5s;
 }
 
 .dropdown-item.active,

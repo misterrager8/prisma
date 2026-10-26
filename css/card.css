@@ -1,5 +1,6 @@
 .card {
   margin-bottom: 2px;
+  transition: background-color 0.5s;
 }
 
 .card:hover,
@@ -8,5 +9,4 @@
   color: var(--btn-hover-txt);
   cursor: pointer;
   border-radius: 5px;
-  font-weight: bold;
 }

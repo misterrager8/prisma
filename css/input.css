@@ -3,7 +3,7 @@
   color: var(--primary-txt);
   border: 0.5px solid var(--primary-txt);
   padding-inline: 12px;
-  height: 30px;
+  min-height: 30px;
   border-radius: 5px;
   outline: none;
 }

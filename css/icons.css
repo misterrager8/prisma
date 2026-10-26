@@ -1,0 +1,27 @@
+.plus-icon::before {
+  content: "\002B";
+}
+
+.moon-icon::before {
+  content: "\23FE";
+}
+
+.sun-icon::before {
+  content: "\2600";
+}
+
+.pencil-icon::before {
+  content: "\270E";
+}
+
+.star-icon::before {
+  content: "\2606";
+}
+
+.star-fill-icon::before {
+  content: "\2605";
+}
+
+.folder-icon::before {
+  content: "\233E";
+}

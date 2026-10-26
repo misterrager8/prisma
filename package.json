@@ -1,6 +1,6 @@
 {
   "name": "@chemllei0304/prisma",
-  "version": "1.0.0",
+  "version": "2026.10.26",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
